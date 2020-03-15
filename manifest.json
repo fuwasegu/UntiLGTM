@@ -1,0 +1,12 @@
+{
+    "name": "UntiLGTM",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Sample Chrome Extension",
+    "content_scripts": [{
+        "matches": ["https://qiita.com/*"],
+        "js": [ "UntiLGTM.js"],
+        "css":["style.css"]
+    }],
+    "permissions": ["activeTab"]
+}

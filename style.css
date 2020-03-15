@@ -1,0 +1,25 @@
+.liked > button > #likebtn > i{
+    display: none;
+}
+
+.liked > button > #likebtn::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f00c";
+    font-weight: 900;
+}
+
+.liked > button > .likebtn-comment > i{
+    display: none;
+}
+
+.liked > button > .likebtn-comment::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f00c";
+    font-weight: 900;
+    color: white;
+}
+
+#friend-like-icon{
+    font-size: 1.42923077em;
+    color: #777;
+}
